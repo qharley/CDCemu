@@ -1,17 +1,17 @@
-Emulatore del caricatore CD offerto come optional per Fiat Stilo, attualmente l'emulatore funzione solo sul navigatore Connect NAV+
-(testato con firmware 8.3 , 9.8 e 11.0)
+CD changer emulator offered as an option for Fiat Stilo, currently the emulator only works on the Connect NAV + navigator
+(tested with firmware 8.3, 9.8 and 11.0)
 
 
-Istruzioni:
+Instructions:
 
-Sostituire (rinominare il vecchio in .bak) il file SoftwareSerial.cpp in ...arduino\libraries\SoftwareSerial
+Replace (rename the old one in .bak) the SoftwareSerial.cpp file in ... arduino \ libraries \ SoftwareSerial
 
-Sostituire (rinominare il vecchio in .bak) il file  wiring_pulse.c in ...arduino\hardware\arduino\cores\arduino
+Replace (rename the old in .bak) the wiring_pulse.c file in ... arduino \ hardware \ arduino \ cores \ arduino
 
-Aprire lo sketch cdc.pde e caricare nella scheda Arduino
+Open the sketch cdc.pde and load in the Arduino board
 
 
-Installare l'emulatore sul Connect.
-Accendere il Connect, dopo alcuni istanti il led "L" di Arduino si illumina se viene riconosciuto dal Connect.
+Install the emulator on the Connect.
+Turn on the Connect, after a few moments the LED "L" of Arduino lights up if it is recognized by the Connect.
 
-Attendere il caricamento, la scritta CDC dovrebbe essere nera, premere CDC e quando scompare la scritta CDC SCAN premere Play, buon ascolto.
+Wait for the loading, the CDC writing should be black, press CDC and when the CDC SCAN disappears press Play, listen well.
